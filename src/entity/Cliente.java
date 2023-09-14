@@ -1,13 +1,11 @@
 package entity;
 
-public abstract class Pessoa {
+public abstract class Cliente {
     private String nome;
     private int idade;
-
     private String cadastroPessoa;
-    private Veiculo veiculo;
 
-    public Pessoa(String nome, int idade, String cadastroPessoa) {
+    public Cliente(String nome, int idade, String cadastroPessoa) {
         this.nome = nome;
         this.idade = idade;
         this.cadastroPessoa = cadastroPessoa;
@@ -37,12 +35,5 @@ public abstract class Pessoa {
         this.cadastroPessoa = cadastroPessoa;
     }
 
-    public Veiculo getVeiculo() {
-        return veiculo;
-    }
-
-    public void setVeiculo(Veiculo veiculo) {
-        this.veiculo = veiculo;
-    }
 
 }

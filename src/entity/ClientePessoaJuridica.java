@@ -1,7 +1,7 @@
 package entity;
 
-public class ClienteClienteJuridica extends Cliente {
-    public ClienteClienteJuridica(String nome, int idade, String cnpj) {
+public class ClientePessoaJuridica extends Cliente {
+    public ClientePessoaJuridica(String nome, int idade, String cnpj) {
         super(nome, idade, cnpj);
     }
 

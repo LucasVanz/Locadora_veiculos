@@ -1,26 +1,24 @@
 package repository;
 
-import entity.Veiculo;
+import entity.*;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-public class VeiculoRepository implements IManutencaoVeiculo{
+public class VeiculoRepository implements IManutencaoClasse<Veiculo> {
     private List<Veiculo> veiculoRepository;
 
-    public VeiculoRepository(List<Veiculo> veiculoRepository) {
+    public VeiculoRepository() {
         this.veiculoRepository = new ArrayList<>();
     }
-
-    public void cadastrarVeiculo(Veiculo veiculo){
+    @Override
+    public void cadastrar(Veiculo veiculo){
         this.veiculoRepository.add(veiculo);
     }
 
-    public List<Veiculo> listaVeiculo(){
-        return new ArrayList<>(veiculoRepository);
-    }
-
-    public Veiculo buscarVeiculo(String placa){
+    @Override
+    public Veiculo buscar(String placa){
         for (Veiculo veiculo:veiculoRepository) {
             if (veiculo.getPlaca().equalsIgnoreCase(placa)){
                 return veiculo;
@@ -28,15 +26,17 @@ public class VeiculoRepository implements IManutencaoVeiculo{
         }
         return null;
     }
-    public void alterarVeiculo(Veiculo veiculo){
-        //fazer depois
+    @Override
+    public void alterar(Veiculo veiculo){
+        Veiculo veiculoMod = buscar(veiculo.getPlaca());
+        veiculoMod.setAnoModelo(veiculo.getAnoModelo());
+        veiculoMod.setCor(veiculo.getCor());
     }
-    public boolean alugarVeiculo(String placa, String cpf){
-        //buscar o veiculo
-        //buscar o cliente CPF
 
+    @Override
+    public List<Veiculo> listar(){
+        return new ArrayList<>(veiculoRepository);
     }
-    public void devolverVeiculoCnpj(){
 
-    }
+
 }

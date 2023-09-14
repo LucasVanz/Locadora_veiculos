@@ -1,5 +1,8 @@
+import controllers.AppController;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        AppController app = new AppController();
+        app.executar();
     }
 }

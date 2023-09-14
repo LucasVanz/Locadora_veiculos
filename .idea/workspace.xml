@@ -1,14 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="52b3f65e-5192-4abc-b334-ac3225bd33a8" name="Changes" comment="" />
+    <list default="true" id="52b3f65e-5192-4abc-b334-ac3225bd33a8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/repository/AluguelRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/AluguelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controllers/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controllers/AppController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Aluguel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Aluguel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/ClientePessoaFisica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/ClientePessoaFisica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/ClientePessoaJuridica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/ClientePessoaJuridica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Devolucao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/InfosAlugDev.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/TamanhoVeiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/TamanhoVeiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Veiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Veiculo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/ClientePessoaFisicaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/ClientePessoaFisicaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/ClientePessoaJuridicaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/ClientePessoaJuridicaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/ClienteRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/IManutencaoClasse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/IManutencaoClasse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/VeiculoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/repository/VeiculoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/ClientePessoaFisicaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/ClientePessoaFisicaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/ClientePessoaJuridicaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/ClientePessoaJuridicaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/ClienteService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/VeiculoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/VeiculoService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2UxHmU0vA3RfsmotDHKmf0o0G4N" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -16,12 +54,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/ada_projects/ada-poo/projeto_final_poo_stcoders23&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Locadora_veiculos" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
